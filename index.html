@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>validation Login Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="label">Login Form</h1>
+		<form class="login_form" action="Welcome.html" method="post" name="myform" onSubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input autocomplete="off" type="text" name="email" placeholder="Enter Email or phone">
+			<div id="email_error">Please enter email or phone</div>
+			<div class="font font2">Pasword</div>
+			<input type="password" name="password" placeholder="***********">
+			<div id="pass_error">Please enter your password</div>
+			<button type="submit">Login</button>
+
+		</form>
+	</div>
+	<script src="script.js"></script>
+
+
+
+</body>
+</html>
